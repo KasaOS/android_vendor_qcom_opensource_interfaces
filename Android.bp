@@ -46,13 +46,13 @@ hidl_package_root {
 }
 
 hidl_package_root {
-    name: "com.qualcomm.qti",
-    path: "vendor/qcom/opensource/interfaces",
+    name: "com.qualcomm.qti.bluetooth_audio",
+    path: "vendor/qcom/opensource/interfaces/bluetooth_audio",
 }
 
 hidl_package_root {
-    name: "vendor.qti.hardware",
-    path: "vendor/qcom/opensource/interfaces",
+    name: "vendor.qti.hardware.btconfigstore",
+    path: "vendor/qcom/opensource/interfaces/btconfigstore",
 }
 
 hidl_package_root {

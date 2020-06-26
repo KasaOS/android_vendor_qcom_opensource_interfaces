@@ -6,10 +6,12 @@ hidl_interface {
     product_specific: true,
     srcs: [
         "types.hal",
+        "ISupplicantVendor.hal",
         "ISupplicantVendorStaIface.hal",
     ],
     interfaces: [
         "android.hardware.wifi.supplicant@1.0",
+        "android.hardware.wifi.supplicant@1.1",
         "android.hidl.base@1.0",
         "vendor.qti.hardware.wifi.supplicant@2.0",
     ],
